@@ -2,7 +2,7 @@
 Author URI: http://www.jasonbobich.com
 Contributors: themeblvd
 Tags: version, digital downloads, downloads, e-downloads, easy digital downloads
-Stable Tag: 1.0.0
+Stable Tag: 1.0.1
 
 This plugin adds version numbers to your downloadable software products in Easy Digital Downloads.
 
@@ -37,6 +37,10 @@ To avoid redunancy, if you're using the [EDD Software Licensing](https://easydig
 2. Version added to the `[download_history]` shortcode's outputted table.
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Adjusted plugin to check for EDD_Software_Licensing class to avoid conflicts with other EDD addons that may be using the EDD_SL_Plugin_Updater class.
 
 = 1.0.0 =
 
